@@ -413,7 +413,6 @@ section {
 
     #sec3 .about_box div:nth-child(2) {
         width: 280px;
-        /* background: gray; */
         margin: 100px auto;
     }
 
@@ -442,8 +441,6 @@ section {
     }
 
     #sec3 .about_box div:nth-child(2) {
-        /* width: 250px;
-        margin: 100px auto; */
     }
 
     #sec3 .about_box h3{

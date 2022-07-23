@@ -1,0 +1,181 @@
+/* @font-face {
+    font-family: 'Saint Monica';
+    src: url('SaintMonicaItalic.eot');
+    src: url('SaintMonicaItalic.eot?#iefix') format('embedded-opentype'),
+        url('SaintMonicaItalic.woff2') format('woff2'),
+        url('SaintMonicaItalic.woff') format('woff'),
+        url('SaintMonicaItalic.svg#SaintMonicaItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saint Monica';
+    src: url('SaintMonicaRegular.eot');
+    src: url('SaintMonicaRegular.eot?#iefix') format('embedded-opentype'),
+        url('SaintMonicaRegular.woff2') format('woff2'),
+        url('SaintMonicaRegular.woff') format('woff'),
+        url('SaintMonicaRegular.svg#SaintMonicaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SaintMonicaRegular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/SaintMonicaRegular.eot');
+    src: url('../fonts/SaintMonicaRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SaintMonicaRegular.woff2') format('woff2'),
+         url('../fonts/SaintMonicaRegular.woff') format('woff'),
+         url('../fonts/SaintMonicaRegular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SaintMonicaItalic';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/SaintMonicaItalic.eot');
+    src: url('../fonts/SaintMonicaItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SaintMonicaItalic.woff2') format('woff2'),
+         url('../fonts/SaintMonicaItalic.woff') format('woff'),
+         url('../fonts/SaintMonicaItalic.ttf') format("truetype");
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'SaintMonica-Italic';
+    src: url('/font/SaintMonica-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SaintMonicaItalic';
+    src: url('/font/SaintMonicaItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SaintMonicaItalic';
+    src: url('/font/SaintMonicaItalic.woff') format('woff'),
+         url('/font/SaintMonicaItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SaintMonica';
+    src: url('/font/SaintMonica.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SaintMonicaRegular';
+    src: url('/font/SaintMonicaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SaintMonicaRegular';
+    src: url('/font/SaintMonicaRegular.woff') format('woff'),
+         url('/font/SaintMonicaRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+@font-face {
+    font-family: 'NixgonFonts';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Light.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Light.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Light.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Light.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Light.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NixgonFonts';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Medium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Medium.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Medium.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Medium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NixgonFonts';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/nixgon/NixgonFonts-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'IropkeBatang';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+}

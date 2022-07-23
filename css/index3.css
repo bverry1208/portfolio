@@ -288,10 +288,10 @@ section {
 
 #sec3 .about_box .camera {
     position: absolute;
-    width: 20vw;
-    height: 20vw;
-    margin-top: -18vw;
-    margin-left: -6vw;
+    width: 15vw;
+    height: 15vw;
+    margin-top: -220px;
+    margin-left: -100px;
     background: url(../images/camera.png);
     background-size: cover;
     z-index: 50;
@@ -315,8 +315,8 @@ section {
     border-radius: 300px;
 }
 #sec3 .about_box:hover .camera {
-    margin-top: -200px;
-    margin-left: -80px;
+    margin-top: -180px;
+    margin-left: -60px;
     opacity: 1;
     transition: all 0.44s ease-in-out;
 }
@@ -331,21 +331,14 @@ section {
     #sec3 .about_box p {
         font-size: 14px;
     }
-    /* #sec3 .about_box .camera {
-        width: 170px;
-        height: 170px;
-        margin-top: -137px;
-        margin-left: -49px;
-        opacity: 0;
-    } */
     #sec3 .about_box .camera {
         width: 170px;
         height: 170px;
-        margin-top: -142px;
-        margin-left: -45px;
         opacity: 0;
     }
     #sec3 .about_box:hover .camera {
+        margin-top: -140px;
+        margin-left: -50px;
         opacity: 1;
     }
 }
@@ -368,11 +361,11 @@ section {
     #sec3 .about_box .camera {
         width: 120px;
         height: 120px;
-        margin-top: -85px;
-        margin-left: -65px;
         opacity: 0;
     }
     #sec3 .about_box:hover .camera {
+        margin-top: -85px;
+        margin-left: -65px;
         opacity: 1;
     }
 }
@@ -382,17 +375,24 @@ section {
     #sec3 .about_box {
         padding-top: 8vw;
     }
+
+    #sec3 .about_box div:nth-child(2) {
+        margin-top: 16px;
+    }
+
     #sec3 .about_box p {
         font-size: 10px;
     }
     #sec3 .about_box .camera {
         width: 100px;
         height: 100px;
-        margin-top: -54px;
-        margin-left: -47px;
+        margin-top: -85px;
+        margin-left: -65px;
         opacity: 0;
     }
     #sec3 .about_box:hover .camera {
+        margin-top: -60px;
+        margin-left: -30px;
         opacity: 1;
     }
 
@@ -438,16 +438,12 @@ section {
 /* 화면 너비 0 ~ 375px */
 @media (max-width: 375px){
     #sec3 .about_box {
-        width: 85%;
-        height: 300px;
-        margin: 20px auto;
-        padding: 30px auto;
+        height: 75%;
     }
 
     #sec3 .about_box div:nth-child(2) {
-        width: 250px;
-        /* background: gray; */
-        margin: 100px auto;
+        /* width: 250px;
+        margin: 100px auto; */
     }
 
     #sec3 .about_box h3{
@@ -456,7 +452,7 @@ section {
     }
     
     #sec3 .about_box p{
-        font-size: 15px;
+        font-size: 18px;
         line-height: 25px;
     }
     
@@ -464,7 +460,7 @@ section {
         width: 200px;
         height: 200px;
         margin-top: -54px;
-        margin-left: -47px;
+        margin-left: -30px;
     }
 }
 

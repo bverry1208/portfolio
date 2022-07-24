@@ -186,7 +186,8 @@ section {
     height: 500px;
     background: #DE5F40;
     border-radius: 500px;
-    background: url(../images/before_about01.jpg);
+    /* background: url(../images/before_about01.jpg); */
+    background: lightcoral;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

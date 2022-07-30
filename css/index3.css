@@ -101,7 +101,8 @@ section {
     background-repeat: no-repeat;
 }
 
-#sec1_img .scrollBtn{
+
+.scrollBtn{
     margin: 0 auto;
     width:8vw;
     height:3vw;
@@ -181,7 +182,7 @@ section {
 }
 
 #sec2_img{
-    margin: 8vw auto;
+    margin: 10vw auto;
     width: 500px;
     height: 500px;
     background: #DE5F40;
@@ -482,10 +483,12 @@ section {
 .work_title h2{
     margin-left:2vw;
     font-family: 'Saint Monica';
-    font-size: 5.3vw;
+    /* font-size: 5.3vw; */
+    font-size: 70px;
     font-weight: 400;
     margin-bottom: 0;
-    line-height: 3.7vw;
+    /* line-height: 3.7vw; */
+    line-height: 49px;
 }
 .work_title hr{
     width:100%;
@@ -496,12 +499,48 @@ section {
 .work_title p{
     margin-top:1vw;
     margin-left: 2vw;
-    font-size: 1.25vw;
-    line-height: 1.9vw;
+    /* font-size: 1.25vw; */
+    font-size: 19px;
+    /* line-height: 1.9vw; */
+    line-height: 25px;
 }
 .work_title p span{
     color:#DE5F40;
 }
+
+/* media query */
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px){
+
+}
+
+/* 화면 너비 0 ~ 960px */
+@media (max-width: 960px){
+
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+
+}
+
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px){
+
+}
+
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    .work_title p br{
+        display: none;
+    }
+}
+
+/* 화면 너비 0 ~ 375px */
+@media (max-width: 375px){
+
+}
+
 
 #sec5 .work_title h2{
     margin-left:16.5vw;

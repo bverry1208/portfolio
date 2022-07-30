@@ -14,15 +14,17 @@
     <div class="scrollfixed">0</div>
 
     <header>
-        <ul>
-            <li><a href="#sec1">portfolio</a></li>
-            <li><a href="#sec3">about</a></li>
-            <li><a href="#sec4">work</a></li>
-            <li><a href="#sec6">script</a></li>
-        </ul>
-        <ul>
-            <li><a href="#sec7">con</a></li>
-        </ul>
+        <div class="slideMenu">
+            <ul>
+                <li><a href="#sec1">portfolio</a></li>
+                <li><a href="#sec3">about</a></li>
+                <li><a href="#sec4">work</a></li>
+                <li><a href="#sec6">script</a></li>
+            </ul>
+            <ul>
+                <li><a href="#sec7">con</a></li>
+            </ul>
+        </div>
     </header>
 
     <main id="main">
@@ -47,11 +49,15 @@
         <!-- before about page (greeting) -->
         <section id="sec2">
             <div id="sec2_txt">
+                <div
+                    data-600 = "transform: translateX(0px)"
+                    data-1200 = "transform: translateX(500px)"
+                >
                 안녕하세요, 배예진입니다.<br/>
                 <span>배움</span>의 즐거움을 유지하며 <span>겸손</span>한 자세로 끊임없이 <br/>
                 <span>도전</span>하는 개발자가 되겠습니다.<br/>
                 애증의 코딩과 함께하는 저의 공간에 오신것을 환영합니다.<br/>
-                
+                </div>
             </div>
             <div id="sec2_img"></div>
             <div id="sec2_line"></div>
@@ -348,8 +354,7 @@
         </section>
     
 
-    <script src="script/jquery-1.12.3.js"></script>
-    <script src="script/index.js"></script>
+    <script src="js/jquery-1.12.3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
     <script>
         var s = skrollr.init({
@@ -357,12 +362,31 @@
         });
 
         function scroll(){
-          let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          let scrollTop = window.pageYOffset || document.documentElement.scrollTop || window.scrollY;
 
-          document.querySelector(".scrollfixed").innerHTML = scrollTop;
+          document.querySelector(".scrollfixed").innerHTML = parseInt(scrollTop);
           requestAnimationFrame(scroll);
+
+          if( scrollTop > 0){
+                document.querySelector(".slideMenu").classList.add("show");
+            } else {
+                document.querySelector(".slideMenu").classList.remove("show");
+            }
         }
         scroll();
+
+
+        //menu
+        // window.addEventListener("scroll", function(){
+        //     let scrollTop = document.documentElement.scrollTop || window.scrollY || window.pageYOffset;
+        
+        //     if( scrollTop > 0){
+        //         document.querySelector("header").classList.add("show");
+        //     } else {
+        //         document.querySelector("header").classList.remove("show");
+        //     }
+        // })
+        
     </script>
 </body>
 </html>

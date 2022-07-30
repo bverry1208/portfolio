@@ -240,9 +240,7 @@ section {
 #sec3{
     margin-top: 100px;
     display: flex;
-    /* height:90vh; */
     width:100%;
-    /* background: lightgoldenrodyellow; */
     justify-content: space-evenly;
 }
 

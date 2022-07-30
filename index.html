@@ -50,8 +50,9 @@
         <section id="sec2">
             <div id="sec2_txt">
                 <div
-                    data-600 = "transform: translateX(0px)"
-                    data-1200 = "transform: translateX(500px)"
+                    data-450 = "transform: translateX(1000px)"
+                    data-1000 = "transform: translateX(0px)"
+                    
                 >
                 안녕하세요, 배예진입니다.<br/>
                 <span>배움</span>의 즐거움을 유지하며 <span>겸손</span>한 자세로 끊임없이 <br/>
@@ -59,13 +60,22 @@
                 애증의 코딩과 함께하는 저의 공간에 오신것을 환영합니다.<br/>
                 </div>
             </div>
-            <div id="sec2_img"></div>
-            <div id="sec2_line"></div>
+            <div id="sec2_img"
+                data-900 = "transform: scale(0)"
+                data-1300 = "transform: scale(1)"
+            ></div>
+            <div id="sec2_line"
+                data-1500 = "width:100%"
+                data-2000 = "width:0.5px"
+            ></div>
             <!-- div 대신 가상태그 넣기 -->
         </section>
 
         <section id="sec3">
-            <div class="about_box">
+            <div class="about_box"
+                data-1900 = "transform: translateX(-600px)"
+                data-2450 = "transform: translateX(0px)"
+            >
                 <div class="camera"></div>
                 <div>
                     <h3>좋아하는</h3>
@@ -77,9 +87,11 @@
                         보탬이 되는 한명의 팔로워가 되겠습니다.
                     </p>
                 </div>
-                
             </div>
-            <div class="about_box">
+            <div class="about_box"
+                data-1900 = "transform: translateY(500px)"
+                data-2450 = "transform: translateY(0px)"
+            >
                 <div class="camera"></div>
                 <div>
                     <h3>성장하는</h3>
@@ -93,7 +105,10 @@
                 </div>
                 
             </div>
-            <div class="about_box">
+            <div class="about_box"
+                data-1900 = "transform: translateX(600px)"
+                data-2450 = "transform: translateX(0px)"
+            >
                 <div class="camera"></div>  
                 <div>
                     <h3>도전적인</h3>
@@ -115,10 +130,18 @@
         <!-- section4 / workstory -->
         <section id="sec4" class="workstory">
             <div class="work_title">
-                <h2>work</h2>
+                <h2
+                    data-2700 = "transform: translateX(-500px)"
+                    data-3400 = "transform: translateX(0px)"
+                >
+                work
+                </h2>
                 <!-- <div class="tit_line"></div> -->
                 <hr/>
-                <p>
+                <p
+                data-2700 = "transform: translateY(500px); opacity:0;"
+                data-3400 = "transform: translateY(0px); opacity:1;"
+                >
                     <span>php</span>, <span>vue</span>, <span>react</span>를 이용하여 각각 세가지 사이트를 제작하였습니다.<br/>
                     웹 표준을 준수한 웹표준사이트와 PC , Tablet, Mobile 환경에 <br/>
                     따라 다르게 움직이는 <span>반응형 사이트</span>를 제작하였습니다.
@@ -136,7 +159,10 @@
                 </div>
                 <figure class="content_img_wrap">
                     <div class="content_img"></div>
-                    <div class="content_subject">
+                    <div class="content_subject"
+                        data-3500 = "transform: translateY(300px); opacity:0"
+                        data-3800 = "transform: translateX(0px); opacity:1"
+                    >
                         <h3>webstandard</h3>
                         <p>웹표준 사이트</p>
                     </div>
@@ -154,7 +180,10 @@
                 </div>
                 <figure class="content_img_wrap">
                     <div class="content_img"></div>
-                    <div class="content_subject">
+                    <div class="content_subject"
+                        data-4000 = "transform: translateY(300px); opacity:0"
+                        data-4600 = "transform: translateX(0px); opacity:1"
+                    >
                         <h3>responsive</h3>
                         <p>반응형 사이트</p>
                     </div> 
@@ -172,7 +201,10 @@
                 </div>
                 <figure class="content_img_wrap">
                     <div class="content_img"></div>
-                    <div class="content_subject">
+                    <div class="content_subject"
+                        data-5100 = "transform: translateY(300px); opacity:0"
+                        data-5400 = "transform: translateX(0px); opacity:1"
+                    >
                         <h3>php site</h3>
                         <p>php 사이트</p>
                     </div> 
@@ -190,7 +222,10 @@
                 </div>
                 <figure class="content_img_wrap">
                     <div class="content_img"></div>
-                    <div class="content_subject">
+                    <div class="content_subject"
+                    data-5900 = "transform: translateY(300px); opacity:0"
+                    data-6200 = "transform: translateX(0px); opacity:1"
+                    >
                         <h3>react site</h3>
                         <p>리액트 사이트</p>
                     </div> 
@@ -201,10 +236,16 @@
         <!-- section5 -->
         <section id="sec5" class="workstory">
             <div class="work_title">
-                <h2>Animation</h2>
+                <h2
+                    data-6500 = "transform: translateX(-900px)"
+                    data-6800 = "transform: translateX(0px)"
+                >Animation</h2>
                 <!-- <div class="tit_line"></div> -->
                 <hr/>
-                <p>
+                <p
+                    data-6500 = "transform: translateY(500px); opacity:0"
+                    data-6800 = "transform: translateY(0px); opacity:1;"
+                >
                     동적인 효과를 주기위해 <span>CSS</span>를 이용한 ANIMATION입니다.<br/>
                     <span>TRANSLATE</span> 효과를 이용해 움직임을 주었습니다.
                 </p>                
@@ -212,7 +253,10 @@
 
             <!-- animation 내용 -->
             <div class="animation_wrap">
-                <figure class="ani_box">
+                <figure class="ani_box"
+                    data-6500 = "transform: translateY(0px)"
+                    data-7700 = "transform: translateY(60vw)"
+                >
                     <div class="ani_box_img">
                         <h3>dot</h3>
                     </div>
@@ -236,7 +280,10 @@
                         </div>
                     </button>
                 </figure>
-                <figure class="ani_box">
+                <figure class="ani_box"
+                    data-6500 = "transform: translateY(0px)"
+                    data-7700 = "transform: translateY(-60vw)"
+                >
                     <div class="ani_box_img">
                         <h3>circle</h3>    
                     </div>

@@ -238,7 +238,7 @@ section {
 
 /* section03 about_box */
 #sec3{
-    margin-top: 15vw;
+    margin-top: 100px;
     display: flex;
     /* height:90vh; */
     width:100%;
@@ -249,7 +249,7 @@ section {
 /* about_box 공통 */
 #sec3 .about_box{
     width:30.4vw;
-    height:41.5vw;
+    height:43vw;
     color: #fff;
     padding: 10vw 5vw;
     background-size: cover;
@@ -257,10 +257,6 @@ section {
     background-position: center;
     transition: all 0.7s;
 }
-/* #sec3 .about_box{
-    width:30.4vw;
-    height:41.5vw;
-} */
 
 /* about_box 이미지첨부 */
 #sec3 .about_box:nth-child(1){
@@ -388,7 +384,7 @@ section {
     }
 
     #sec3 .about_box p {
-        font-size: 10px;
+        font-size: 9px;
     }
     #sec3 .about_box .camera {
         width: 100px;
@@ -540,36 +536,6 @@ section {
 @media (max-width: 375px){
 
 }
-
-
-#sec5 .work_title h2{
-    margin-left:16.5vw;
-}
-#sec5 .work_title p{
-    margin-left: 16.5vw;
-}
-
-#sec6 .work_title, #sec7 .work_title {
-    text-align: right;
-}
-#sec6 .work_title h2{
-    margin-right: 16.5vw;
-}
-#sec6 .work_title p{
-    margin-right: 16.5vw;
-}
-
-/* #sec7 .work_title h2{
-    margin-left: 2vw;
-}
-#sec7 .work_txt {
-    margin-left: 2vw;
-} */
-
-
-
-
-
 
 
 /* section4 content */ 
@@ -742,19 +708,21 @@ section {
     transform: rotate(-180deg);
 }
 
-/* #content01 .siteView_btn div, #content03 .siteView_btn div{
-    margin-left: 16.5vw;
-} */
-
 
 /* section 5 */
+/* title */
+#sec5 .work_title h2{
+    margin-left:16.5vw;
+}
+#sec5 .work_title p{
+    margin-left: 16.5vw;
+}
+
 /* section05 animation_wrap */
 .animation_wrap{
     display: flex;
     margin-top: 15vw;
-    /* height:90vh; */
     width:100%;
-    /* background: lightgoldenrodyellow; */
     justify-content: space-evenly;
 }
 
@@ -863,7 +831,6 @@ section {
 }
 /* 버튼 화살표 끝 */
 
-/* section 5 */
 /* media query */
 /* 화면 너비 0 ~ 480px */
 @media (max-width: 480px){
@@ -883,7 +850,16 @@ section {
 
 
 /* section 6 */
-
+/* title */
+#sec6 .work_title {
+    text-align: right;
+}
+#sec6 .work_title h2{
+    margin-right: 16.5vw;
+}
+#sec6 .work_title p{
+    margin-right: 16.5vw;
+}
 #sec6{
     /* background: lightgray; */
 } 

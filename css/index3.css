@@ -748,12 +748,6 @@ section {
 
 
 /* section 5 */
-
-
-
-
-
-
 /* section05 animation_wrap */
 .animation_wrap{
     display: flex;
@@ -869,9 +863,22 @@ section {
 }
 /* 버튼 화살표 끝 */
 
-
-
 /* section 5 */
+/* media query */
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    #sec5 .work_title h2{
+        margin-left:2vw;
+    }
+    #sec5 .work_title p{
+        margin-left: 2vw;
+    }
+}
+
+/* 화면 너비 0 ~ 375px */
+@media (max-width: 375px){
+
+}
 
 
 
@@ -950,6 +957,22 @@ section {
     text-align: left;
 }
 
+
+/* media query */
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){
+    #sec6 .work_title h2{
+        margin-left:2vw;
+    }
+    #sec6 .work_title p{
+        margin-left: 2vw;
+    }
+}
+
+/* 화면 너비 0 ~ 375px */
+@media (max-width: 375px){
+
+}
 
 
 
